@@ -8,7 +8,7 @@ Abstract
 1. Iterative_GS_algorithm.m: MATLAB demo for iterative Phase Retrieval from optical diffraction pattern, with reference to [toy phase retrieval alogrithm in MATLAB include: ER, HIO, DM, ASR, RAAR r](https://github.com/necroen/toy_pr).
 2. GS_TM: Phase retrieval from recorded speckle patterns using GS algorithm with transmission matrix as the measurement operator. We refer to 
 Ref[1] and its project home [Coherent Inverse Scattering via Transmission Matrices](http://compphotolab.northwestern.edu/project/transmissionmatrices/) where the dataset and some scripts can be downloaded.
-3. unet1.py & Rmain_GPU1.py: Modified “U-Net” for image reconstruction from speckle pattern
+3. unet.py & Rmain_GPU.py: Modified “U-Net” for image reconstruction from speckle pattern
 4. ResNet.py & Cmain_GPU: ResNet18 for MNIST classification and recognition of speckle pattern
 
 
@@ -19,5 +19,5 @@ Ref[1] and its project home [Coherent Inverse Scattering via Transmission Matric
 
 
 
-Reference
+**Reference**
 [1] Metzler, C.A., M.K. Sharma, S. Nagesh, R.G. Baraniuk, O. Cossairt, and A. Veeraraghavan, "Coherent Inverse Scattering via Transmission Matrices: Efficient Phase Retrieval Algorithms and a Public Dataset," 2017 Ieee International Conference on Computational Photography (Iccp 2017), 2017: 51-66.
