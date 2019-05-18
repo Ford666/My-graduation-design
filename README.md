@@ -8,7 +8,7 @@ For my graduation project, I've done a reserach on image reconstruction from opt
 1. Iterative_GS_algorithm.m: MATLAB demo for iterative Phase Retrieval from optical diffraction pattern, with reference to [toy phase retrieval alogrithm in MATLAB include: ER, HIO, DM, ASR, RAAR r](https://github.com/necroen/toy_pr).
 2. GS_TM.m: Phase retrieval from recorded speckle patterns using GS algorithm with transmission matrix as the measurement operator. We refer to Ref[1] and its project home [Coherent Inverse Scattering via Transmission Matrices](http://compphotolab.northwestern.edu/project/transmissionmatrices/) where the dataset and some scripts can be downloaded.
 3. unet1.py & Rmain_GPU.py: Modified “U-Net” for image reconstruction from speckle pattern. Here, unet1.py is the DNN model established under Pytorch framework. Rmain_GPU.py descirbes the data loading, network training and validation process. 
-4. generalization_test.py: For generalization test, you can download the pretrained weight parameters from [here]() (about 205MB), the test set from [here]() (about 50MB) and correspongding image label from [here]() (about 800KB). After downloading the files, put it under the root directory and run generalization_test.py.
+4. generalization_test.py: For generalization test, you can download the pretrained weight parameters(about 205MB), the test set(about 50MB) and corresponding image label(about 800KB) all saved in one folder [test]() with the passcode  . After downloading the files, put it under the root directory and run generalization_test.py.
 
 
 
