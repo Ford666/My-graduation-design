@@ -43,9 +43,9 @@ class DenseBlock(nn.Module):
         for name, layer in self.named_children():
             new_dimension = layer(torch.cat(dimension, 1))
             dimension.append(new_dimension)
-        out = self.out(torch.cat(dimension, 1))
-        #return new_dimension
-        return out
+        #out = self.out(torch.cat(dimension, 1))
+        return new_dimension
+      
 
 
 class ResBlock(nn.Module):
