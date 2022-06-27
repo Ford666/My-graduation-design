@@ -6,7 +6,10 @@ For my graduation project, I've done a reserach on image reconstruction from opt
 
 **This repository contains my graduation thesis, PPT presentation for thesis defense, also some MATLAB and Python codes.**
 1. Iterative_GS_algorithm.m: MATLAB demo for iterative Phase Retrieval from optical diffraction pattern, with reference to [toy phase retrieval alogrithm in MATLAB include: ER, HIO, DM, ASR, RAAR r](https://github.com/necroen/toy_pr).
-2. GS_TM.m: Phase retrieval from recorded speckle patterns using GS algorithm with transmission matrix as the measurement operator. We refer to Ref[1] and its project home [Coherent Inverse Scattering via Transmission Matrices](http://compphotolab.northwestern.edu/project/transmissionmatrices/) where the dataset and some scripts can be downloaded.
+2. Using GS phase retrieval algorithm to recover object from speckle intensity measurement.
+- GS_expTM.m: Both the TM (as the measurement matrix) and the speckle pattern are experimentally acquired, which are available from a public dataset. We refer to Ref[1] and its project home [Coherent Inverse Scattering via Transmission Matrices](http://compphotolab.northwestern.edu/project/transmissionmatrices/) where the dataset and some scripts can be downloaded.
+- GS_simTM.m: The TM is not a experimentally acquired but instead a simulated one. It can run immedicately without any extra requirements. Also, this version should be easier to understand.
+
 3. unet1.py & Rmain_GPU.py: Modified “U-Net” for image reconstruction from speckle pattern. Here, unet1.py is the DNN model established under Pytorch framework. Rmain_GPU.py descirbes the data loading, network training and validation process. 
 4. generalization_test.py: For generalization test, you can download the pretrained weight parameters(about 205MB), the test set(about 50MB) and corresponding image label(about 800KB) all saved in one folder [test](https://pan.baidu.com/s/1AxmDbcCSw8dAojpH5Skigw). After downloading the files, put them under the root directory and run generalization_test.py.
 
