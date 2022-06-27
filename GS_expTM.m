@@ -85,4 +85,3 @@ end
 suptitle('SLM phase patterns, speckle patterns & phase retrieved after 100 itearations')  
 t1=toc(t0);
 fprintf('It takes %4.2f seconds\n',t1);
-
